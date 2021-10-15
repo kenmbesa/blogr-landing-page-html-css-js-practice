@@ -1,0 +1,37 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+       text-size-adjust: 100%;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    color: #404040;
+  }
+  header {
+    background-image: url("");
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    color: #404040;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  body {
+    color: green;
+  }
+}
+/*# sourceMappingURL=style.css.map */
